@@ -1,11 +1,14 @@
-stl: KiCad/Shelly.stl
-scad: KiCad/Shelly.scad
+stl: Shelly.stl
+scad: Shelly.scad
+
+PCBCase/case: PCBCase/case.c
+	make -C PCBCase
 
 %.stl: %.scad
 	echo "Making $@"
 	/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD $< -o $@
 	echo "Made $@"
 
-KiCad/Shelly.scad: KiCad/Shelly.kicad_pcb PCBCase/case Makefile
+Shelly.scad: Shelly.kicad_pcb PCBCase/case Makefile
 	PCBCase/case -o $@ $< --base=2.8 --top=4 --wall=4
 

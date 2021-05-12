@@ -152,7 +152,7 @@ L Connector_Generic:Conn_01x06 J2
 U 1 1 607B65BB
 P 2900 2750
 F 0 "J2" H 2850 3100 50  0000 L CNN
-F 1 "Shelly 2" H 2980 2651 50  0000 L CNN
+F 1 "Other" H 2980 2651 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 2900 2750 50  0001 C CNN
 F 3 "~" H 2900 2750 50  0001 C CNN
 	1    2900 2750
@@ -215,47 +215,6 @@ TXD
 Text GLabel 2700 2950 0    50   Input ~ 0
 RXD
 Text GLabel 2700 3050 0    50   Input ~ 0
-TXD
-$Comp
-L Connector_Generic:Conn_01x06 J3
-U 1 1 607C703E
-P 2900 3850
-F 0 "J3" H 2850 4200 50  0000 L CNN
-F 1 "Shelly i3" H 2980 3751 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical" H 2900 3850 50  0001 C CNN
-F 3 "~" H 2900 3850 50  0001 C CNN
-	1    2900 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 607C7044
-P 2700 3650
-F 0 "#PWR05" H 2700 3400 50  0001 C CNN
-F 1 "GND" V 2705 3522 50  0000 R CNN
-F 2 "" H 2700 3650 50  0001 C CNN
-F 3 "" H 2700 3650 50  0001 C CNN
-	1    2700 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR06
-U 1 1 607C704A
-P 2700 3950
-F 0 "#PWR06" H 2700 3800 50  0001 C CNN
-F 1 "+3.3V" V 2715 4078 50  0000 L CNN
-F 2 "" H 2700 3950 50  0001 C CNN
-F 3 "" H 2700 3950 50  0001 C CNN
-	1    2700 3950
-	0    -1   -1   0   
-$EndComp
-Text GLabel 2700 3750 0    50   Input ~ 0
-GPIO0
-Text GLabel 2700 3850 0    50   Input ~ 0
-RST
-Text GLabel 2700 4050 0    50   Input ~ 0
-RXD
-Text GLabel 2700 4150 0    50   Input ~ 0
 TXD
 $Comp
 L Interface_USB:FT231XQ U1
