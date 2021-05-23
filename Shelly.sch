@@ -428,7 +428,7 @@ U 1 1 608E858D
 P 9600 1600
 F 0 "Reg1" H 10178 1501 50  0000 L CNN
 F 1 "3.3V" H 10178 1410 50  0000 L CNN
-F 2 "RevK:RegulatorBlock2" H 10050 1700 50  0001 C CNN
+F 2 "RevK:RegulatorBlock" H 10050 1700 50  0001 C CNN
 F 3 "https://www.pololu.com/product/2842/resources" H 10050 1700 50  0001 C CNN
 	1    9600 1600
 	1    0    0    -1  
