@@ -1,6 +1,10 @@
 stl: Shelly.stl
 scad: Shelly.scad
 
+update:
+	git submodule update --init --recursive --remote
+	git commit -a -m "Library update"
+
 PCBCase/case: PCBCase/case.c
 	make -C PCBCase
 
