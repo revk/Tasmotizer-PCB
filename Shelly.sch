@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Shelly Tasmotizer"
-Date "2021-04-19"
+Date "2021-07-20"
 Rev "4"
 Comp "Adrian Kennard Andrews & Arnold Ltd"
 Comment1 "@TheRealRevK"
@@ -435,4 +435,15 @@ F 3 "https://www.pololu.com/product/2842/resources" H 10050 1700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9600 1600 9600 1700
+$Comp
+L RevK:AJK Logo1
+U 1 1 60F6E194
+P 10150 6800
+F 0 "Logo1" H 10150 6900 50  0001 C CNN
+F 1 "AJK" H 10175 6800 50  0000 L CNN
+F 2 "RevK:AJK" H 10150 6700 50  0001 C CNN
+F 3 "" H 10150 6700 50  0001 C CNN
+	1    10150 6800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
