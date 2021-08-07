@@ -180,17 +180,6 @@ F 3 "" H 2700 1500 50  0001 C CNN
 	1    2700 1500
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+3.3V #PWR04
-U 1 1 607BA4C3
-P 2700 2850
-F 0 "#PWR04" H 2700 2700 50  0001 C CNN
-F 1 "+3.3V" V 2715 2978 50  0000 L CNN
-F 2 "" H 2700 2850 50  0001 C CNN
-F 3 "" H 2700 2850 50  0001 C CNN
-	1    2700 2850
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2700 1600 0    50   Input ~ 0
 GPIO0
 Text GLabel 2700 2650 0    50   Input ~ 0
@@ -479,8 +468,6 @@ F 3 "" H 10675 6775 50  0001 C CNN
 	1    10700 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 2750 0    50   Input ~ 0
-RST
 $Comp
 L Diode:BAV99S D3
 U 1 1 610E90DC
@@ -577,4 +564,45 @@ F 3 "" H 1900 1200 50  0001 C CNN
 	1    1900 1200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1900 2750 1900 1700
+Connection ~ 1900 1700
+$Comp
+L Device:R R6
+U 1 1 610EA62F
+P 1900 2900
+F 0 "R6" V 1800 2900 50  0000 C CNN
+F 1 "10K" V 1900 2900 50  0000 C CNN
+F 2 "RevK:R_0603" V 1830 2900 50  0001 C CNN
+F 3 "~" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 607BA4C3
+P 2700 2850
+F 0 "#PWR04" H 2700 2700 50  0001 C CNN
+F 1 "+3.3V" V 2715 2978 50  0000 L CNN
+F 2 "" H 2700 2850 50  0001 C CNN
+F 3 "" H 2700 2850 50  0001 C CNN
+	1    2700 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 610ED439
+P 1900 3050
+F 0 "#PWR0111" H 1900 2800 50  0001 C CNN
+F 1 "GND" H 1905 2877 50  0000 C CNN
+F 2 "" H 1900 3050 50  0001 C CNN
+F 3 "" H 1900 3050 50  0001 C CNN
+	1    1900 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2750 1900 2750
+Connection ~ 1900 2750
+Text Notes 2125 2250 0    50   ~ 0
+Configure FTID\nto invert RTS line
 $EndSCHEMATC
