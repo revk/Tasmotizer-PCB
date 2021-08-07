@@ -21,6 +21,9 @@ F 0 "J3" H 6150 2700 50  0000 C CNN
 F 1 "USB-C" H 6400 2400 50  0000 C CNN
 F 2 "RevK:USC16-TR-Round" H 6650 1900 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6650 1900 50  0001 C CNN
+F 4 "Valcon" H 6500 1900 50  0001 C CNN "Manufacturer"
+F 5 "CSP-USC16-TR" H 6500 1900 50  0001 C CNN "Part No"
+F 6 "Available from Toby Electronics" H 6500 1900 50  0001 C CNN "Note"
 	1    6500 1900
 	1    0    0    -1  
 $EndComp
@@ -141,7 +144,7 @@ L Connector_Generic:Conn_01x05 J1
 U 1 1 607B3C76
 P 2900 1700
 F 0 "J1" H 2850 2050 50  0000 L CNN
-F 1 "Shelly 1" H 2980 1651 50  0000 L CNN
+F 1 "Shelly 1" H 2975 1700 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2900 1700 50  0001 C CNN
 F 3 "~" H 2900 1700 50  0001 C CNN
 	1    2900 1700
@@ -200,6 +203,8 @@ F 0 "U1" H 6200 3400 50  0000 C CNN
 F 1 "FT231XQ" H 6700 4250 50  0000 C CNN
 F 2 "RevK:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm" H 8050 3450 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" H 6700 4250 50  0001 C CNN
+F 4 "FTDI" H 6700 4250 50  0001 C CNN "Manufacturer"
+F 5 "FT231XQ" H 6700 4250 50  0001 C CNN "Part No"
 	1    6700 4250
 	1    0    0    -1  
 $EndComp
@@ -364,13 +369,14 @@ $EndComp
 Wire Wire Line
 	7700 4550 7400 4550
 $Comp
-L RevK:AJK Logo1
+L RevK:AJK Art1
 U 1 1 60F6E194
 P 10150 6800
-F 0 "Logo1" H 10150 6900 50  0001 C CNN
+F 0 "Art1" H 10150 6900 50  0001 C CNN
 F 1 "AJK" H 10175 6800 50  0000 L CNN
 F 2 "RevK:AJK" H 10150 6700 50  0001 C CNN
 F 3 "" H 10150 6700 50  0001 C CNN
+F 4 "Non part - artwork only" H 10150 6800 50  0001 C CNN "Note"
 	1    10150 6800
 	1    0    0    -1  
 $EndComp
@@ -445,13 +451,14 @@ TXD
 Text GLabel 3125 6625 3    50   Input ~ 0
 RXD
 $Comp
-L RevK:QR U3
+L RevK:QR Art2
 U 1 1 610F8780
 P 10700 6800
-F 0 "U3" H 10700 6675 50  0001 C CNN
+F 0 "Art2" H 10700 6675 50  0001 C CNN
 F 1 "QR" H 10700 6675 50  0001 C CNN
 F 2 "RevK:QR-Shelly" H 10675 6775 50  0001 C CNN
 F 3 "" H 10675 6775 50  0001 C CNN
+F 4 "Non part - artwork only" H 10700 6800 50  0001 C CNN "Note"
 	1    10700 6800
 	1    0    0    -1  
 $EndComp
@@ -533,6 +540,7 @@ F 0 "Q1" H 2005 1354 50  0000 L CNN
 F 1 "BSH205G2AR" H 2005 1445 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 1500 50  0001 C CNN
 F 3 "https://www.mouser.co.uk/datasheet/2/916/BSH205G2A-1919497.pdf" H 1800 1400 50  0001 C CNN
+F 4 "Any P-Channel SOT23 that does 3.3V/0.5A" H 1800 1400 50  0001 C CNN "Note"
 	1    1800 1400
 	1    0    0    1   
 $EndComp
