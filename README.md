@@ -16,3 +16,5 @@ USB-C connected serial and power for using tasmotizer with Shelly modules.
 ![232168](https://user-images.githubusercontent.com/996983/128397165-5d7cc128-e5e6-4c20-b499-182e5d7e9472.jpg)
 
 See https://github.com/tasmota/tasmotizer/pull/100 for making the reset work to load config as this is simple reset from RTS.
+
+Note FTDI config requires inverted RTS line. Tools are included to do this.

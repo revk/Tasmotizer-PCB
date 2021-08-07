@@ -12,6 +12,9 @@ PCBCase/case: PCBCase/case.c
 ftdi: ftdizap/ftdizap
 	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=9
 
+ftdi-invert: ftdizap/ftdizap
+	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=9 --invert-rts=1
+
 ftdizap/ftdizap: ftdizap/ftdizap.c
 	make -C ftdizap
 
