@@ -603,8 +603,8 @@ $EndComp
 Wire Wire Line
 	2700 2750 1900 2750
 Connection ~ 1900 2750
-Text Notes 2125 2250 0    50   ~ 0
-Configure FTID\nto invert RTS line
+Text Notes 7825 3900 0    50   ~ 0
+Configure FTDI\nto invert RTS line
 Text Notes 2175 1275 0    50   ~ 0
-Any p-channel FET, 1A
+Any p-channel FET, 0.5A 3.3V
 $EndSCHEMATC
