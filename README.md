@@ -10,6 +10,7 @@ USB-C connected serial and power for using tasmotizer with Shelly modules.
 - On Shelly 1 (which has no RST) the RTS controls power, so will power cycle instead of reset
 - Works seamlessley with tasmotizer to flash (see note below for tweak to allow reset for config load)
 - Tx/Rx have BAV99 diodes for ESD protection
+- LED on Tx (CBUS0 so configuable in FTDI) shows working
 - 3D printed case design incldued
 
 ![232168](https://user-images.githubusercontent.com/996983/128397165-5d7cc128-e5e6-4c20-b499-182e5d7e9472.jpg)
