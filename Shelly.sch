@@ -605,4 +605,6 @@ Wire Wire Line
 Connection ~ 1900 2750
 Text Notes 2125 2250 0    50   ~ 0
 Configure FTID\nto invert RTS line
+Text Notes 2175 1275 0    50   ~ 0
+Any p-channel FET, 1A
 $EndSCHEMATC
