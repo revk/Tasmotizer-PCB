@@ -21,5 +21,7 @@ ftdizap/ftdizap: ftdizap/ftdizap.c
 	echo "Made $@"
 
 Shelly.scad: Shelly.kicad_pcb PCBCase/case Makefile
-	PCBCase/case -o $@ $< --base=2 --top=4
+	PCBCase/case -n -o $@ $< --base=2 --top=4 --wall=4
+	echo "intersection(){base();cube([25,28+4,10]);}" >> $@
+	echo "translate([23,0,0])intersection(){top();translate([0,4,0])cube([25,28+4,10]);}" >> $@
 
