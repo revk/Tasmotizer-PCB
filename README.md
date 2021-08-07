@@ -9,7 +9,7 @@ USB-C connected serial and power for using tasmotizer with Shelly modules.
 - RST on serial RTS, GPIO0 on serial DTR, works with esp flash tool
 - On Shelly 1 (which has no RST) the RTS controls power, so will power cycle instead of reset
 - Works seamlessley with tasmotizer to flash (see note below for tweak to allow reset for config load)
-- Tx/Rx have BAV99 diodes for ESD protection
+- Tx/Rx/GPIO/RST have BAV99 diodes for ESD protection
 - LED on Tx (CBUS0 so configuable in FTDI) shows working
 - 3D printed case design incldued
 
