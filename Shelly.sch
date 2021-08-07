@@ -181,17 +181,6 @@ F 3 "" H 2700 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR02
-U 1 1 607BA094
-P 1900 1500
-F 0 "#PWR02" H 1900 1350 50  0001 C CNN
-F 1 "+3.3V" V 1915 1628 50  0000 L CNN
-F 2 "" H 1900 1500 50  0001 C CNN
-F 3 "" H 1900 1500 50  0001 C CNN
-	1    1900 1500
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+3.3V #PWR04
 U 1 1 607BA4C3
 P 2700 2850
@@ -370,30 +359,8 @@ F 3 "" H 8300 4550 50  0001 C CNN
 	1    8300 4550
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R6
-U 1 1 607E1676
-P 1150 1500
-F 0 "R6" V 1050 1500 50  0000 C CNN
-F 1 "1k" V 1150 1500 50  0000 C CNN
-F 2 "RevK:R_0603" V 1080 1500 50  0001 C CNN
-F 3 "~" H 1150 1500 50  0001 C CNN
-	1    1150 1500
-	0    1    1    0   
-$EndComp
-Text GLabel 1000 1500 0    50   Input ~ 0
+Text GLabel 1600 1400 0    50   Input ~ 0
 RST
-$Comp
-L power:GND #PWR0101
-U 1 1 607EE7DF
-P 1300 1700
-F 0 "#PWR0101" H 1300 1450 50  0001 C CNN
-F 1 "GND" V 1305 1572 50  0000 R CNN
-F 2 "" H 1300 1700 50  0001 C CNN
-F 3 "" H 1300 1700 50  0001 C CNN
-	1    1300 1700
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 6088DE55
@@ -407,17 +374,6 @@ F 3 "" H 7400 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7700 4550 7400 4550
-$Comp
-L RevK:G3VM-61VY3(TR) U2
-U 1 1 6083CB16
-P 1600 1850
-F 0 "U2" H 1600 2425 50  0000 C CNN
-F 1 "G3VM-61VY3(TR)" H 1600 2334 50  0000 C CNN
-F 2 "RevK:Special-SOP-4-3.7x4.55" H 1600 1850 50  0001 C CNN
-F 3 "https://www.mouser.co.uk/ProductDetail/653-G3VM-61VY3TR" H 1600 1850 50  0001 C CNN
-	1    1600 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L RevK:Regulator Reg1
 U 1 1 608E858D
@@ -523,8 +479,6 @@ F 3 "" H 10675 6775 50  0001 C CNN
 	1    10700 6800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 1700 2700 1700
 Text GLabel 2700 2750 0    50   Input ~ 0
 RST
 $Comp
@@ -596,5 +550,31 @@ F 2 "" H 3425 6425 50  0001 C CNN
 F 3 "" H 3425 6425 50  0001 C CNN
 	1    3425 6425
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q1
+U 1 1 610E7A4F
+P 1800 1400
+F 0 "Q1" H 2005 1354 50  0000 L CNN
+F 1 "BSH205G2AR" H 2005 1445 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 1500 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/916/BSH205G2A-1919497.pdf" H 1800 1400 50  0001 C CNN
+	1    1800 1400
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1900 1700 2700 1700
+Wire Wire Line
+	1900 1600 1900 1700
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 610ED66B
+P 1900 1200
+F 0 "#PWR0101" H 1900 1050 50  0001 C CNN
+F 1 "+3.3V" H 1915 1373 50  0000 C CNN
+F 2 "" H 1900 1200 50  0001 C CNN
+F 3 "" H 1900 1200 50  0001 C CNN
+	1    1900 1200
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
