@@ -1,5 +1,5 @@
 stl: Shelly.stl
-scad: Shelly.scad
+scad: Shelly.scad Makefile
 
 update:
 	git submodule update --init --recursive --remote
@@ -21,5 +21,5 @@ ftdizap/ftdizap: ftdizap/ftdizap.c
 	echo "Made $@"
 
 Shelly.scad: Shelly.kicad_pcb PCBCase/case Makefile
-	PCBCase/case -o $@ $< --base=2.8 --top=4 --wall=4
+	PCBCase/case -o $@ $< --base=2 --top=4
 
