@@ -1,10 +1,13 @@
-### Module positions - created on 2022-01-02 19:24
+### Module positions - created on 2022-01-19 10:47
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
 ## Pcb Height 28.100mm, Pcb Width 14.100mm [based on Edge bounding box]
 ## Side : ALL
 ## Board Aux Origin: 0.000mm ,0.000mm
 # Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+U2            LMR16006+FB         RegulatorBlockFB              172.7800   -68.7500   171.8300   -70.1000      0.0    top       SMD
+R8            3M 1% or NF         R_0603                        171.7000   -65.3000   171.7000   -64.4750    -90.0    top       SMD
+R7            10M 1% or 0R        R_0603                        177.3000   -65.4000   178.1250   -65.4000    180.0    top       SMD
 D3            LED                 LED_0603_1608Metric_Pad1.05.. 171.0000   -81.0000   171.0000   -81.8750     90.0    top       SMD
 R3            5K1                 R_0603                        183.3000   -78.1000   183.3000   -78.9250     90.0    top       SMD
 J1            Shelly 1            PinHeader_1x05_P2.54mm_Vert.. 182.2000   -56.1000   182.2000   -56.1000    -90.0    top       THD
@@ -19,22 +22,21 @@ D2            BAV99S              SOT-363_SC-70-6               181.3000   -67.4
 R1            10K                 R_0603                        174.5000   -61.2000   174.5000   -62.0250     90.0    top       SMD
 C1            100nF               C_0603                        176.6000   -60.4000   177.3750   -60.4000    180.0    top       SMD
 Q1            BSH205G2AR          SOT-23                        172.0000   -60.2000   171.0625   -59.2500      0.0    top       SMD
-C2            0.1uF               Hidden                        170.6800   -68.7500   0.0000     0.0000       90.0    top       SMD
+C2            0.1uF               Hidden                        170.6800   -69.0000   0.0000     0.0000       90.0    top       SMD
 C3            2.2uF               Hidden                        171.9300   -72.3000   0.0000     0.0000       90.0    top       SMD
 C4            10uF                Hidden                        178.1800   -72.3000   0.0000     0.0000       90.0    top       SMD
 D4            Schottky            Hidden                        175.0600   -71.9200   0.0000     0.0000        0.0    top       SMD
 L1            6.8uH               Hidden                        176.6800   -68.7500   0.0000     0.0000        0.0    top       SMD
-U2            LMR16006YQ3         RegulatorBlock                172.7800   -68.7500   171.8300   -70.1000      0.0    top       SMD
 J2            Other               PinHeader_1x06_P1.27mm_Vert.. 182.6000   -58.6000   182.6000   -58.6000     90.0    bottom    THD
 Art1          AJK                 AJK                           176.6000   -79.7500   0.0000     0.0000      180.0    bottom    THD
 Art2          QR                  QR-Shelly                     174.5000   -69.0000   0.0000     0.0000       90.0    bottom    THD
 ## End
-## 123 SMD pads
+## 126 SMD pads
 ## 86 TH pads
 ## 0 Virtual pads
 ## 1 Top TH modules
 ## 3 Bot TH modules
-## 19 Top SMD modules
+## 21 Top SMD modules
 ## 0 Bot SMD modules
 ## 0 Top Virtual modules
 ## 0 Bot Virtual modules

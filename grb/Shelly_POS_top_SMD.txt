@@ -1,10 +1,13 @@
-### Module positions - created on 2022-01-02 19:24
+### Module positions - created on 2022-01-19 10:47
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
 ## Pcb Height 28.100mm, Pcb Width 14.100mm [based on Edge bounding box]
 ## Side : top
 ## Board Aux Origin: 0.000mm ,0.000mm
 # Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+U2            LMR16006+FB         RegulatorBlockFB              172.7800   -68.7500   171.8300   -70.1000      0.0    top       SMD
+R8            3M 1% or NF         R_0603                        171.7000   -65.3000   171.7000   -64.4750    -90.0    top       SMD
+R7            10M 1% or 0R        R_0603                        177.3000   -65.4000   178.1250   -65.4000    180.0    top       SMD
 D3            LED                 LED_0603_1608Metric_Pad1.05.. 171.0000   -81.0000   171.0000   -81.8750     90.0    top       SMD
 R3            5K1                 R_0603                        183.3000   -78.1000   183.3000   -78.9250     90.0    top       SMD
 U1            FT231XQ             QFN-20-1EP_4x4mm_P0.5mm_EP2.. 180.7000   -62.2000   182.6000   -63.2000    180.0    top       SMD
@@ -18,10 +21,9 @@ D2            BAV99S              SOT-363_SC-70-6               181.3000   -67.4
 R1            10K                 R_0603                        174.5000   -61.2000   174.5000   -62.0250     90.0    top       SMD
 C1            100nF               C_0603                        176.6000   -60.4000   177.3750   -60.4000    180.0    top       SMD
 Q1            BSH205G2AR          SOT-23                        172.0000   -60.2000   171.0625   -59.2500      0.0    top       SMD
-C2            0.1uF               Hidden                        170.6800   -68.7500   0.0000     0.0000       90.0    top       SMD
+C2            0.1uF               Hidden                        170.6800   -69.0000   0.0000     0.0000       90.0    top       SMD
 C3            2.2uF               Hidden                        171.9300   -72.3000   0.0000     0.0000       90.0    top       SMD
 C4            10uF                Hidden                        178.1800   -72.3000   0.0000     0.0000       90.0    top       SMD
 D4            Schottky            Hidden                        175.0600   -71.9200   0.0000     0.0000        0.0    top       SMD
 L1            6.8uH               Hidden                        176.6800   -68.7500   0.0000     0.0000        0.0    top       SMD
-U2            LMR16006YQ3         RegulatorBlock                172.7800   -68.7500   171.8300   -70.1000      0.0    top       SMD
 ## End
