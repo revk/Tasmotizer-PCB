@@ -2,15 +2,15 @@
 <export version="E">
   <design>
     <source>/Users/adrian/git/Shelly-Tasmotizer-PCB/Shelly.kicad_sch</source>
-    <date>Wednesday, 19 January 2022 at 10:47:54</date>
+    <date>Friday, 11 February 2022 at 11:52:16</date>
     <tool>Eeschema (6.0.1-0)</tool>
-    <textvar name="DATE">2022-01-19</textvar>
+    <textvar name="DATE">2022-02-07</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Shelly Tasmotizer</title>
         <company>Adrian Kennard Andrews &amp; Arnold Ltd</company>
         <rev>4</rev>
-        <date>2022-01-19</date>
+        <date>2022-02-07</date>
         <source>Shelly.kicad_sch</source>
         <comment number="1" value="@TheRealRevK"/>
         <comment number="2" value="www.me.uk"/>
@@ -25,32 +25,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="Art1">
-      <value>AJK</value>
-      <footprint>RevK:AJK</footprint>
-      <fields>
-        <field name="Note">Non part - artwork only</field>
-      </fields>
-      <libsource lib="RevK" part="AJK" description=""/>
-      <property name="Note" value="Non part - artwork only"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Shelly.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060f6e194</tstamps>
-    </comp>
-    <comp ref="Art2">
-      <value>QR</value>
-      <footprint>RevK:QR-Shelly</footprint>
-      <fields>
-        <field name="Note">Non part - artwork only</field>
-      </fields>
-      <libsource lib="RevK" part="QR" description=""/>
-      <property name="Note" value="Non part - artwork only"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Shelly.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000610f8780</tstamps>
-    </comp>
     <comp ref="C1">
       <value>100nF</value>
       <footprint>RevK:C_0603</footprint>

@@ -1,4 +1,4 @@
-### Module positions - created on 2022-02-07 08:59
+### Module positions - created on 2022-02-11 11:52
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
 ## Pcb Height 28.100mm, Pcb Width 14.100mm [based on Edge bounding box]
@@ -28,15 +28,15 @@ R7            10M 1% or 0R        R_0603                        177.3000   -65.4
 R8            3M 1% or NF         R_0603                        171.7000   -65.3000   171.7000   -64.4750    -90.0    top       SMD
 U2            LMR16006+FB         RegulatorBlockFB              172.7800   -68.7500   171.8300   -70.1000      0.0    top       SMD
 J2            Other               PinHeader_1x06_P1.27mm_Vert.. 182.6000   -58.6000   182.6000   -58.6000     90.0    bottom    THD
-Art1          AJK                 AJK                           176.4000   -79.6000   0.0000     0.0000      180.0    bottom    THD
-Art2          QR                  QR-Shelly                     174.5000   -69.8000   0.0000     0.0000       90.0    bottom    THD
+Art1          AJK                 AJK                           176.4000   -79.6000   0.0000     0.0000      180.0    bottom    VIRTUAL
+Art2          QR                  QR-Shelly                     174.5000   -69.8000   0.0000     0.0000       90.0    bottom    VIRTUAL
 ## End
 ## 126 SMD pads
-## 86 TH pads
-## 0 Virtual pads
+## 11 TH pads
+## 75 Virtual pads
 ## 1 Top TH modules
-## 3 Bot TH modules
+## 1 Bot TH modules
 ## 21 Top SMD modules
 ## 0 Bot SMD modules
 ## 0 Top Virtual modules
-## 0 Bot Virtual modules
+## 2 Bot Virtual modules

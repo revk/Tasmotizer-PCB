@@ -2178,7 +2178,7 @@
   )
 
   (symbol (lib_id "RevK:AJK") (at 257.81 172.72 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060f6e194)
     (property "Reference" "Art1" (id 0) (at 257.81 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2476,7 +2476,7 @@
   )
 
   (symbol (lib_id "RevK:QR") (at 271.78 172.72 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000610f8780)
     (property "Reference" "Art2" (id 0) (at 271.78 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
