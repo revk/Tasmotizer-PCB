@@ -2,15 +2,15 @@
 <export version="E">
   <design>
     <source>/Users/adrian/git/Shelly-Tasmotizer-PCB/Shelly.kicad_sch</source>
-    <date>Friday, 11 February 2022 at 11:52:16</date>
+    <date>Friday, 11 February 2022 at 12:22:15</date>
     <tool>Eeschema (6.0.1-0)</tool>
-    <textvar name="DATE">2022-02-07</textvar>
+    <textvar name="DATE">2022-02-11</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Shelly Tasmotizer</title>
         <company>Adrian Kennard Andrews &amp; Arnold Ltd</company>
         <rev>4</rev>
-        <date>2022-02-07</date>
+        <date>2022-02-11</date>
         <source>Shelly.kicad_sch</source>
         <comment number="1" value="@TheRealRevK"/>
         <comment number="2" value="www.me.uk"/>
@@ -176,13 +176,13 @@
       <tstamps>00000000-0000-0000-0000-0000610fe01a</tstamps>
     </comp>
     <comp ref="Q1">
-      <value>BSH205G2AR</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <value>PMF170XP,115 </value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
       <fields>
-        <field name="Note">Any P-Channel SOT23 that does 3.3V/0.5A</field>
+        <field name="Note">Any P-Channel SOT323 that does 3.3V/0.5A</field>
       </fields>
       <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <property name="Note" value="Any P-Channel SOT23 that does 3.3V/0.5A"/>
+      <property name="Note" value="Any P-Channel SOT323 that does 3.3V/0.5A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Shelly.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

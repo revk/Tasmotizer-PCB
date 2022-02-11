@@ -1,10 +1,11 @@
-### Module positions - created on 2022-02-11 11:52
+### Module positions - created on 2022-02-11 12:22
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
 ## Pcb Height 28.100mm, Pcb Width 14.100mm [based on Edge bounding box]
 ## Side : ALL
 ## Board Aux Origin: 0.000mm ,0.000mm
 # Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+Q1            PMF170XP,115        SOT-323_SC-70                 172.0000   -60.2000   171.0000   -59.5500      0.0    top       SMD
 D3            LED                 LED_0603_1608Metric_Pad1.05.. 171.0000   -81.0000   171.0000   -81.8750     90.0    top       SMD
 R3            5K1                 R_0603                        183.3000   -78.1000   183.3000   -78.9250     90.0    top       SMD
 J1            Shelly 1            PinHeader_1x05_P2.54mm_Vert.. 182.2000   -56.1000   182.2000   -56.1000    -90.0    top       THD
@@ -18,7 +19,6 @@ D1            BAV99S              SOT-363_SC-70-6               181.3500   -70.4
 D2            BAV99S              SOT-363_SC-70-6               181.3000   -67.4000   180.3500   -66.7500      0.0    top       SMD
 R1            10K                 R_0603                        174.5000   -61.2000   174.5000   -62.0250     90.0    top       SMD
 C1            100nF               C_0603                        176.6000   -60.4000   177.3750   -60.4000    180.0    top       SMD
-Q1            BSH205G2AR          SOT-23                        172.0000   -60.2000   171.0625   -59.2500      0.0    top       SMD
 C2            0.1uF               Hidden                        170.6800   -69.0000   0.0000     0.0000       90.0    top       SMD
 C3            2.2uF               Hidden                        171.9300   -72.3000   0.0000     0.0000       90.0    top       SMD
 C4            10uF                Hidden                        178.1800   -72.3000   0.0000     0.0000       90.0    top       SMD
