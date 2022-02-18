@@ -1,4 +1,4 @@
-### Module positions - created on 2022-02-15 08:15
+### Module positions - created on 2022-02-18 14:11
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
 ## Pcb Height 28.100mm, Pcb Width 14.100mm [based on Edge bounding box]
@@ -15,7 +15,7 @@ R2            5K1                 R_0603                        183.3000   -81.0
 R4            27R                 R_0603                        181.4000   -73.0000   180.5750   -73.0000      0.0    top       SMD
 R5            27R                 R_0603                        181.4000   -74.3200   180.5750   -74.3200      0.0    top       SMD
 D1            BAV99S              SOT-363_SC-70-6               181.3500   -70.4000   180.4000   -69.7500      0.0    top       SMD
-D2            BAV99S              SOT-363_SC-70-6               181.3000   -67.4000   180.3500   -66.7500      0.0    top       SMD
+D2            BAV99S              SOT-363_SC-70-6               181.3000   -67.5000   180.3500   -66.8500      0.0    top       SMD
 C1            100nF               C_0603                        176.7900   -61.2000   177.5650   -61.2000    180.0    top       SMD
 Q2            PMF170XP,115        SOT-323_SC-70                 171.4000   -59.8000   170.7500   -60.8000     90.0    top       SMD
 C2            0.1uF               Hidden                        170.6800   -69.0000   0.0000     0.0000       90.0    top       SMD
@@ -28,8 +28,8 @@ R8            3M 1% or NF         R_0603                        171.7000   -65.3
 Q1            PMF250XNEX          SOT-323_SC-70                 173.9000   -59.8000   173.2500   -60.8000     90.0    top       SMD
 U2            LMR16006+FB         RegulatorBlockFB              172.7800   -68.7500   171.8300   -70.1000      0.0    top       SMD
 J2            Other               PinHeader_1x06_P1.27mm_Vert.. 182.6000   -58.6000   182.6000   -58.6000     90.0    bottom    THD
-Art1          AJK                 AJK                           176.4000   -79.6000   0.0000     0.0000      180.0    bottom    VIRTUAL
-Art2          QR                  QR-Shelly                     175.2000   -69.8000   0.0000     0.0000       90.0    bottom    VIRTUAL
+Art1          AJK                 AJK                           176.6000   -79.1250   0.0000     0.0000      180.0    bottom    VIRTUAL
+Art2          QR                  QR-Shelly                     175.4000   -69.4000   0.0000     0.0000      180.0    bottom    VIRTUAL
 ## End
 ## 127 SMD pads
 ## 11 TH pads
