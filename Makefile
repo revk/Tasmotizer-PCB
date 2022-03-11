@@ -1,5 +1,7 @@
-stl: Shelly.stl
-scad: Shelly.scad Makefile
+MODELS := Shelly
+
+scad:	$(patsubst %,KiCad/%.scad,$(MODELS))
+stl:	$(patsubst %,KiCad/%.stl,$(MODELS))
 
 update:
 	git submodule update --init --recursive --remote
@@ -17,6 +19,9 @@ ftdi-invert: ftdizap/ftdizap
 
 ftdizap/ftdizap: ftdizap/ftdizap.c
 	make -C ftdizap
+
+PCBCase/case: PCBCase/case.c
+	make -C PCBCase
 
 %.stl: %.scad
 	echo "Making $@"
