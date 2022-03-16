@@ -1,4 +1,4 @@
-### Module positions - created on 2022-02-18 14:11
+### Module positions - created on 2022-03-16 15:03
 ### Printed by pcb_positions plugin
 ## Unit = mm, Angle = deg.
 ## Pcb Height 28.100mm, Pcb Width 14.100mm [based on Edge bounding box]
@@ -24,6 +24,6 @@ D4            Schottky            Hidden                        175.0600   -71.9
 L1            6.8uH               Hidden                        176.6800   -68.7500   0.0000     0.0000        0.0    top       SMD
 R7            10M 1% or 0R        R_0603                        176.3500   -65.4500   177.1750   -65.4500    180.0    top       SMD
 R8            3M 1% or NF         R_0603                        171.7000   -65.3000   171.7000   -64.4750    -90.0    top       SMD
-Q1            PMF250XNEX          SOT-323_SC-70                 173.9000   -59.8000   173.2500   -60.8000     90.0    top       SMD
+Q1            PMF250XNEX          SOT-323_SC-70                 174.0000   -59.8000   173.3500   -60.8000     90.0    top       SMD
 U2            LMR16006+FB         RegulatorBlockFB              172.7800   -68.7500   171.8300   -70.1000      0.0    top       SMD
 ## End
