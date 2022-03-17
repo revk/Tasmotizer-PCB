@@ -2673,8 +2673,8 @@
     (property "Reference" "C5" (id 0) (at 279.781 66.4753 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10nF" (id 1) (at 279.781 69.0122 0)
-      (effects (font (size 0 0)) (justify left))
+    (property "Value" "100nF" (id 1) (at 279.781 69.0122 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "RevK:C_0603" (id 2) (at 277.8252 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2823,7 +2823,7 @@
       (reference "C4") (unit 1) (value "10uF") (footprint "RevK:Hidden")
     )
     (path "/de097fb4-477c-417d-bbd4-baadec4de0d9"
-      (reference "C5") (unit 1) (value "10nF") (footprint "RevK:C_0603")
+      (reference "C5") (unit 1) (value "100nF") (footprint "RevK:C_0603")
     )
     (path "/00000000-0000-0000-0000-0000610e5cef"
       (reference "D1") (unit 1) (value "BAV99S") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/adrian/git/Shelly-Tasmotizer-PCB/Shelly.kicad_sch</source>
-    <date>Wednesday, 16 March 2022 at 17:37:47</date>
+    <date>Thursday, 17 March 2022 at 07:26:05</date>
     <tool>Eeschema (6.0.2-0)</tool>
     <textvar name="DATE">2022-03-16</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -77,7 +77,7 @@
       <tstamps>00000000-0000-0000-0000-0000610fd80e</tstamps>
     </comp>
     <comp ref="C5">
-      <value>10nF</value>
+      <value>100nF</value>
       <footprint>RevK:C_0603</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
