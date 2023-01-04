@@ -13,6 +13,6 @@ USB-C connected serial and power for using tasmotizer with Shelly modules.
 - LED on Tx (CBUS0 so configuable in FTDI) shows working
 - 3D printed case design incldued
 
-![IMG_2230](https://user-images.githubusercontent.com/996983/210555711-ae9a1b08-7e0a-4ea4-b811-b9f08077d095.jpg)
+![285596](https://user-images.githubusercontent.com/996983/210557901-069e82fe-5a57-41cc-9394-5fe4b870d8c3.jpg)
 
 Note FTDI config requires inverted RTS line, and ideally the LED setting on Tx. Tools are included to do this.
