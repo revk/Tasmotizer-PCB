@@ -11,7 +11,7 @@ USB-C connected serial and power for using tasmotizer with Shelly modules.
 - Works seamlessley with tasmotizer web flash, and esptool from esp idf
 - Tx/Rx/GPIO/RST have BAV99 diodes for ESD protection
 - LED on Tx (CBUS0 so configuable in FTDI) shows working
-- 3D printed case design incldued
+- 3D printed case design included
 
 ![285596](https://user-images.githubusercontent.com/996983/210557901-069e82fe-5a57-41cc-9394-5fe4b870d8c3.jpg)
 
