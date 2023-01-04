@@ -1,6 +1,6 @@
 # Shelly-Tasmotizer-PCB
 
-USB-C connected serial and power for using tasmotizer with Shelly modules.
+USB-C connected serial and power for using tasmotizer with Shelly modules, as well as many other designs with the same 5 or 6 pin headers/pads.
 
 - Very small USB-C connected module
 - Includes 3.3V regulator to correctly power the Shelly (unlike many serial leads that just pass 5V from USB)
