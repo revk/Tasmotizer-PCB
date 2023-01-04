@@ -1,6 +1,6 @@
 // Generated case design for KiCad/Shelly.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-01-04 12:49:33
+// Generated 2023-01-04 12:51:51
 // title:	Shelly Tasmotizer
 // date:	${DATE}
 // rev:	4
