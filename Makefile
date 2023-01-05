@@ -1,8 +1,5 @@
 MODELS := Shelly
 
-scad:   $(patsubst %,KiCad/%.scad,$(MODELS))
-stl:    $(patsubst %,KiCad/%.stl,$(MODELS))
-
 update:
 	git submodule update --init --recursive --remote
 	git commit -a -m "Library update"
@@ -24,6 +21,13 @@ PCBCase/case: PCBCase/case.c
 	echo "Making $@"
 	/Applications/OpenSCAD.app/Contents/MacOS/OpenSCAD $< -o $@
 	echo "Made $@"
+
+scad:   $(patsubst %,KiCad/%.scad,$(MODELS))
+stl:    $(patsubst %,KiCad/%.stl,$(MODELS))
+zip:    $(patsubst KiCad/%.kicad_pcb,KiCad/%.zip,$(wildcard KiCad/*.kicad_pcb))
+
+%.zip:  %.kicad_pcb
+	zip -D $@ $(subst .kicad_pcb,-B_Cu.gbr,$<) $(subst .kicad_pcb,-F_Cu.gbr,$<) $(subst .kicad_pcb,-B_Mask.gbr,$<) $(subst .kicad_pcb,-F_Mask.gbr,$<) $(subst .kicad_pcb,-B_Silkscreen.gbr,$<) $(subst .kicad_pcb,-F_Silkscreen.gbr,$<) $(subst .kicad_pcb,-PTH.drl,$<) $(subst .kicad_pcb,-NPTH.drl,$<) $(subst .kicad_pcb,-Edge_Cuts.gbr,$<)
 
 KiCad/Shelly.scad: KiCad/Shelly.kicad_pcb PCBCase/case Makefile
 	PCBCase/case -n -o $@ $< --base=2 --top=4 --wall=4
