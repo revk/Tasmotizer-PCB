@@ -1509,7 +1509,7 @@
     (uuid f40d350f-0d3e-4f8a-b004-d950f2f8f1ba)
   )
 
-  (text "Configure FTDI for inverted RTS" (at 175.26 87.63 0)
+  (text "Configure FTDI\n- Inverted RTS\n- CBUS0 mode 9" (at 175.26 87.63 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8558364f-4a64-4872-9196-4e8571ebee96)
   )
