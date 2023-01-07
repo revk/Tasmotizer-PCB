@@ -5,10 +5,10 @@ update: zip
 	git commit -a -m "Library update"
 
 # Program the FTDI
-ftdi: ftdizap/ftdizap
-	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=9
+ftdi-noninvert: ftdizap/ftdizap
+	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=9 --invert-rts=0
 
-ftdi-invert: ftdizap/ftdizap
+ftdi: ftdizap/ftdizap
 	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=9 --invert-rts=1
 
 ftdizap/ftdizap: ftdizap/ftdizap.c

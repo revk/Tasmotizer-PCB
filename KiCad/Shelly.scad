@@ -1,6 +1,6 @@
 // Generated case design for KiCad/Shelly.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-01-05 14:33:04
+// Generated 2023-01-07 14:55:02
 // title:	Shelly Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -31,13 +31,13 @@ pcbwidth=14.000000;
 pcblength=28.000000;
 // Populated PCB
 module board(pushed=false,hulled=false){
-translate([1.000000,2.000000,0.800000])rotate([0,0,90.000000])m0(pushed,hulled); // LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder LED_0603_1608Metric
-translate([13.300000,4.900000,0.800000])rotate([0,0,90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
+translate([1.100000,2.100000,0.800000])rotate([0,0,90.000000])m0(pushed,hulled); // LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder LED_0603_1608Metric
+translate([13.050000,4.800000,0.800000])rotate([0,0,90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([12.200000,26.900000,0.800000])rotate([0,0,-90.000000])m2(pushed,hulled); // Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical PinHeader_1x05_P2.54mm_Vertical
 translate([10.700000,20.500000,0.800000])rotate([0,0,180.000000])m3(pushed,hulled); // RevK:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
-translate([7.000000,0.100000,0.800000])translate([0.000000,3.385000,0.000000])rotate([90.000000,0.000000,0.000000])m4(pushed,hulled); // RevK:USC16-TR-Round CSP-USC16-TR
-translate([1.000000,5.000000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
-translate([13.300000,2.000000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
+translate([7.000000,0.100000,0.800000])translate([0.000000,3.350000,0.000000])rotate([90.000000,0.000000,0.000000])m4(pushed,hulled); // RevK:USC16-TR CSP-USC16-TR
+translate([1.100000,5.100000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
+translate([13.050000,1.900000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([11.400000,10.000000,0.800000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([11.400000,8.680000,0.800000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([11.250000,12.600000,0.800000])m5(pushed,hulled); // Package_TO_SOT_SMD:SOT-363_SC-70-6 SOT-363_SC-70-6
@@ -84,7 +84,7 @@ cube([4,4,1],center=true);
 }
 
 module m4(pushed=false,hulled=false)
-{ // RevK:USC16-TR-Round CSP-USC16-TR
+{ // RevK:USC16-TR CSP-USC16-TR
 rotate([-90,0,0])translate([-4.47,-3.84,0])
 {
 	translate([1.63,0,1.63])
