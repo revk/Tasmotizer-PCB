@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/adrian/git/Shelly-Tasmotizer-PCB/KiCad/Shelly.kicad_sch</source>
-    <date>Saturday, 07 January 2023 at 14:07:11</date>
+    <date>Saturday, 07 January 2023 at 15:48:48</date>
     <tool>Eeschema (6.0.10-0)</tool>
     <textvar name="DATE">2023-01-07</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -35,46 +35,43 @@
       <tstamps>00000000-0000-0000-0000-000060815e33</tstamps>
     </comp>
     <comp ref="C2">
-      <value>0.1uF</value>
-      <footprint>RevK:Hidden</footprint>
+      <value>100nF</value>
+      <footprint>RevK:C_0603_</footprint>
       <fields>
         <field name="Note">X7R or X5R 0603</field>
       </fields>
       <libsource lib="RevK" part="Hidden" description=""/>
       <property name="Note" value="X7R or X5R 0603"/>
-      <property name="Part No" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Shelly.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000610f9b88</tstamps>
+      <tstamps>db598eb0-3dcb-4eff-8689-9a8a8b698ffa</tstamps>
     </comp>
     <comp ref="C3">
       <value>2.2uF</value>
-      <footprint>RevK:Hidden</footprint>
+      <footprint>RevK:C_0805_</footprint>
       <fields>
         <field name="Note">0603 or 0805</field>
       </fields>
       <libsource lib="RevK" part="Hidden" description=""/>
       <property name="Note" value="0603 or 0805"/>
-      <property name="Part No" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Shelly.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000610fd0ef</tstamps>
+      <tstamps>f0910179-7ea3-4ed7-bfa3-ff952505b010</tstamps>
     </comp>
     <comp ref="C4">
       <value>10uF</value>
-      <footprint>RevK:Hidden</footprint>
+      <footprint>RevK:C_0805_</footprint>
       <fields>
         <field name="Note">0603 or 0805</field>
       </fields>
       <libsource lib="RevK" part="Hidden" description=""/>
       <property name="Note" value="0603 or 0805"/>
-      <property name="Part No" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Shelly.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000610fd80e</tstamps>
+      <tstamps>af1e1cca-2e8f-4eaa-925c-5861615c47b5</tstamps>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
@@ -116,7 +113,7 @@
     </comp>
     <comp ref="D4">
       <value>Schottky</value>
-      <footprint>RevK:Hidden</footprint>
+      <footprint>RevK:D_1206_</footprint>
       <datasheet>https://www.mouser.co.uk/datasheet/2/54/CD1206-B220_B2100-777245.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Bourns</field>
@@ -125,11 +122,10 @@
       <libsource lib="RevK" part="Hidden" description=""/>
       <property name="Manufacturer" value="Bourns"/>
       <property name="Part No" value="CD1206-B2100"/>
-      <property name="Note" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Shelly.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000610fe5d2</tstamps>
+      <tstamps>084bc569-6112-4a2d-9366-32d573d52b0e</tstamps>
     </comp>
     <comp ref="J1">
       <value>Shelly 1</value>
@@ -169,7 +165,7 @@
     </comp>
     <comp ref="L1">
       <value>6.8uH</value>
-      <footprint>RevK:Hidden</footprint>
+      <footprint>RevK:L_4x4_</footprint>
       <datasheet>https://www.mouser.co.uk/datasheet/2/987/Laird_Performance_TYA4020_series__Rev_A_-1877538.pdf</datasheet>
       <fields>
         <field name="Manufacturer">Laird</field>
@@ -178,11 +174,10 @@
       <libsource lib="RevK" part="Hidden" description=""/>
       <property name="Manufacturer" value="Laird"/>
       <property name="Part No" value="TYA4020"/>
-      <property name="Note" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Shelly.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000610fe01a</tstamps>
+      <tstamps>841df56e-3374-4da4-9b5e-2f2e7b375060</tstamps>
     </comp>
     <comp ref="Q1">
       <value>PMF170XP,115</value>
@@ -287,7 +282,7 @@
     </comp>
     <comp ref="U2">
       <value>LMR16006+FB</value>
-      <footprint>RevK:RegulatorBlockFB</footprint>
+      <footprint>RevK:SOT-23-Thin-6-Reg</footprint>
       <fields>
         <field name="Manufacturer">TI</field>
         <field name="Part No">LMR16006YQ3</field>
@@ -298,7 +293,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Shelly.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7054d370-b592-4b76-9916-601c7db6771a</tstamps>
+      <tstamps>f55b8cc2-ae03-479b-8077-c44111b7cc43</tstamps>
     </comp>
   </components>
   <libparts>
