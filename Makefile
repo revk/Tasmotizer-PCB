@@ -1,6 +1,6 @@
 MODELS := Shelly
 
-update:
+update: zip
 	git submodule update --init --recursive --remote
 	git commit -a -m "Library update"
 
@@ -26,8 +26,8 @@ scad:   $(patsubst %,KiCad/%.scad,$(MODELS))
 stl:    $(patsubst %,KiCad/%.stl,$(MODELS))
 zip:    $(patsubst KiCad/%.kicad_pcb,KiCad/%.zip,$(wildcard KiCad/*.kicad_pcb))
 
-%.zip:  %.kicad_pcb
-	zip -D $@ $(subst .kicad_pcb,-B_Cu.gbr,$<) $(subst .kicad_pcb,-F_Cu.gbr,$<) $(subst .kicad_pcb,-B_Mask.gbr,$<) $(subst .kicad_pcb,-F_Mask.gbr,$<) $(subst .kicad_pcb,-B_Silkscreen.gbr,$<) $(subst .kicad_pcb,-F_Silkscreen.gbr,$<) $(subst .kicad_pcb,-PTH.drl,$<) $(subst .kicad_pcb,-NPTH.drl,$<) $(subst .kicad_pcb,-Edge_Cuts.gbr,$<)
+%.zip:  %-B_Cu.gbr %-F_Cu.gbr %-B_Mask.gbr %-F_Mask.gbr %-B_Silkscreen.gbr %-F_Silkscreen.gbr %-Edge_Cuts.gbr %-NPTH.drl %-PTH.drl
+	zip -D $@ $^
 
 KiCad/Shelly.scad: KiCad/Shelly.kicad_pcb PCBCase/case Makefile
 	PCBCase/case -n -o $@ $< --base=2 --top=4 --wall=4

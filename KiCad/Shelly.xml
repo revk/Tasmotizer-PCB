@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/Users/adrian/git/Shelly-Tasmotizer-PCB/Shelly.kicad_sch</source>
-    <date>Thursday, 17 March 2022 at 07:26:05</date>
-    <tool>Eeschema (6.0.2-0)</tool>
-    <textvar name="DATE">2022-03-16</textvar>
+    <source>/Users/adrian/git/Shelly-Tasmotizer-PCB/KiCad/Shelly.kicad_sch</source>
+    <date>Saturday, 07 January 2023 at 14:07:11</date>
+    <tool>Eeschema (6.0.10-0)</tool>
+    <textvar name="DATE">2023-01-07</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Shelly Tasmotizer</title>
         <company>Adrian Kennard Andrews &amp; Arnold Ltd</company>
         <rev>4</rev>
-        <date>2022-03-16</date>
+        <date>2023-01-07</date>
         <source>Shelly.kicad_sch</source>
         <comment number="1" value="@TheRealRevK"/>
         <comment number="2" value="www.me.uk"/>
@@ -151,7 +151,7 @@
     </comp>
     <comp ref="J3">
       <value>USB-C</value>
-      <footprint>RevK:USC16-TR-Round</footprint>
+      <footprint>RevK:USC16-TR</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
       <fields>
         <field name="Manufacturer">Valcon</field>
