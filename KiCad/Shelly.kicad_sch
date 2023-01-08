@@ -1808,7 +1808,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 73.66 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607b3c76)
     (property "Reference" "J1" (id 0) (at 72.39 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1830,7 +1830,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 73.66 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000607b65bb)
     (property "Reference" "J2" (id 0) (at 72.39 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))

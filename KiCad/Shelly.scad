@@ -1,6 +1,6 @@
 // Generated case design for KiCad/Shelly.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-01-07 14:55:02
+// Generated 2023-01-08 08:39:32
 // title:	Shelly Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -44,16 +44,16 @@ translate([11.250000,12.600000,0.800000])m5(pushed,hulled); // Package_TO_SOT_SM
 translate([11.250000,15.500000,0.800000])m5(pushed,hulled); // Package_TO_SOT_SMD:SOT-363_SC-70-6 SOT-363_SC-70-6
 translate([6.790000,21.800000,0.800000])rotate([0,0,180.000000])m6(pushed,hulled); // RevK:C_0603 C_0603_1608Metric
 translate([1.400000,23.200000,0.800000])rotate([0,0,90.000000])m7(pushed,hulled); // Package_TO_SOT_SMD:SOT-323_SC-70 SOT-323_SC-70
+translate([0.680000,14.000000,0.800000])rotate([0,0,90.000000])m6(pushed,hulled); // RevK:C_0603 C_0603_1608Metric
+translate([1.930000,10.700000,0.800000])rotate([0,0,90.000000])m8(pushed,hulled); // RevK:C_0805_ C_0805_2012Metric
+translate([8.180000,10.700000,0.800000])rotate([0,0,90.000000])m8(pushed,hulled); // RevK:C_0805_ C_0805_2012Metric
+translate([5.060000,11.080000,0.800000])m9(pushed,hulled); // RevK:D_1206_ D_1206_3216Metric
+translate([6.680000,14.250000,0.800000])rotate([-0.000000,0.000000,90.000000])m10(pushed,hulled); // RevK:L_4x4_ TYA4020
 translate([6.350000,17.550000,0.800000])rotate([0,0,180.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([1.700000,17.700000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([2.100000,20.600000,0.800000])m6(pushed,hulled); // RevK:C_0603 C_0603_1608Metric
 translate([4.000000,23.200000,0.800000])rotate([0,0,90.000000])m7(pushed,hulled); // Package_TO_SOT_SMD:SOT-323_SC-70 SOT-323_SC-70
-translate([2.780000,14.250000,0.800000])rotate([-0.000000,0.000000,90.000000])m8(pushed,hulled); // RevK:RegulatorBlockFB SOT-23-6
-translate([2.780000,14.250000,0.800000])translate([-2.100000,-0.250000,0.000000])rotate([-0.000000,0.000000,90.000000])m6(pushed,hulled); // RevK:C_0603 C_0603_1608Metric
-translate([2.780000,14.250000,0.800000])translate([-0.800000,-3.550000,0.000000])rotate([-0.000000,0.000000,90.000000])m9(pushed,hulled); // RevK:RegulatorBlockFB C_0805_2012Metric
-translate([2.780000,14.250000,0.800000])translate([5.400000,-3.550000,0.000000])rotate([-0.000000,0.000000,90.000000])m9(pushed,hulled); // RevK:RegulatorBlockFB C_0805_2012Metric
-translate([2.780000,14.250000,0.800000])translate([3.900000,0.000000,0.000000])rotate([-0.000000,0.000000,90.000000])m10(pushed,hulled); // RevK:RegulatorBlockFB TYA4020
-translate([2.780000,14.250000,0.800000])translate([2.275000,-3.200000,0.000000])m11(pushed,hulled); // RevK:RegulatorBlockFB D_1206_3216Metric
+translate([2.780000,14.250000,0.800000])rotate([-0.000000,0.000000,90.000000])m11(pushed,hulled); // RevK:SOT-23-Thin-6-Reg SOT-23-6
 translate([12.600000,24.400000,0.000000])rotate([0,0,90.000000])rotate([180,0,0])m12(pushed,hulled); // Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical PinHeader_1x06_P1.27mm_Vertical
 }
 
@@ -140,25 +140,25 @@ b(0,0,0,2.2,2.2,0.6);
 }
 
 module m8(pushed=false,hulled=false)
-{ // RevK:RegulatorBlockFB SOT-23-6
-b(0,0,0,3.05,3.05,0.5);
-b(0,0,0,1.45,3.05,1.1);
-}
-
-module m9(pushed=false,hulled=false)
-{ // RevK:RegulatorBlockFB C_0805_2012Metric
+{ // RevK:C_0805_ C_0805_2012Metric
 b(0,0,0,2,1.45,0.2); // Pad size
 b(0,0,0,2,1.2,1); // Chip
 }
 
+module m9(pushed=false,hulled=false)
+{ // RevK:D_1206_ D_1206_3216Metric
+b(0,0,0,4.4,1.75,1.2); // Pad size
+}
+
 module m10(pushed=false,hulled=false)
-{ // RevK:RegulatorBlockFB TYA4020
+{ // RevK:L_4x4_ TYA4020
 b(0,0,0,4,4,2.1);
 }
 
 module m11(pushed=false,hulled=false)
-{ // RevK:RegulatorBlockFB D_1206_3216Metric
-b(0,0,0,4.4,1.75,1.2); // Pad size
+{ // RevK:SOT-23-Thin-6-Reg SOT-23-6
+b(0,0,0,3.05,3.05,0.5);
+b(0,0,0,1.45,3.05,1.1);
 }
 
 module m12(pushed=false,hulled=false)
