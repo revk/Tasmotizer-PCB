@@ -1517,6 +1517,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8558364f-4a64-4872-9196-4e8571ebee96)
   )
+  (text "Note, a better regulator for this may be the TLV62569 as it is suitable up to 5.5V input and small footprint."
+    (at 125.73 24.765 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8916cebe-ab4a-488f-81d2-353fab114c01)
+  )
 
   (global_label "TXD" (shape output) (at 68.58 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
