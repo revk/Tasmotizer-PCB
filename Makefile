@@ -26,7 +26,7 @@ scad:   $(patsubst %,KiCad/%.scad,$(MODELS))
 stl:    $(patsubst %,KiCad/%.stl,$(MODELS))
 zip:    $(patsubst KiCad/%.kicad_pcb,KiCad/%.zip,$(wildcard KiCad/*.kicad_pcb))
 
-%.zip:  %-B_Cu.gbr %-F_Cu.gbr %-B_Mask.gbr %-F_Mask.gbr %-B_Silkscreen.gbr %-F_Silkscreen.gbr %-Edge_Cuts.gbr %-NPTH.drl %-PTH.drl
+%.zip:  %-F_Cu.gtl %-B_Cu.gbl %-F_Paste.gtp %-B_Paste.gbp %-F_Silkscreen.gto %-B_Silkscreen.gbo %-F_Mask.gts %-B_Mask.gbs %-Edge_Cuts.gm1 %-PTH.drl %-NPTH.drl
 	zip -D $@ $^
 
 KiCad/Shelly.scad: KiCad/Shelly.kicad_pcb PCBCase/case Makefile
