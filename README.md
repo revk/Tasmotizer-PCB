@@ -1,13 +1,14 @@
-# Shelly-Tasmotizer-PCB
+# Tasmotizer-PCB
 
-USB-C connected serial and power for using tasmotizer with Shelly modules, as well as many other designs with the same 5 or 6 pin headers/pads.
+USB-C connected serial and power for using tasmotizer with a variety of boards using 5 or 6 pin headers.
+[Ideal for reflashing Shell modules]
 
 - Very small USB-C connected module
 - Includes 3.3V regulator to correctly power the Shelly (unlike many serial leads that just pass 5V from USB)
 - Has 5 x 2.54mm pins for Shelly 1
 - Has 6 x 1.27mm pins for Shelly Plus 1, and all the later models.
 - RST on serial RTS, GPIO0 on serial DTR, works with esp flash tool
-- On Shelly 1 (which has no RST) the RTS controls power, so will power cycle instead of reset
+- On 5 pin header (which has no RST) the RTS controls power, so will power cycle instead of reset
 - Works seamlessley with tasmotizer web flash, and esptool from esp idf
 - Tx/Rx/GPIO/RST have BAV99 diodes for ESD protection
 - LED on Tx (CBUS0 so configuable in FTDI) shows working
