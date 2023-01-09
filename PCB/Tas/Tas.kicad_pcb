@@ -6,11 +6,12 @@
 
   (paper "A4")
   (title_block
-    (title "Shelly Tasmotizer")
+    (title "Tasmotizer")
     (date "${DATE}")
     (rev "4")
-    (company "Adrian Kennard Andrews & Arnold Ltd")
-    (comment 1 "www.me.uk")
+    (company "Adrian Kennard, Andrews & Arnold Ltd")
+    (comment 1 "toot.me.uk/@RevK")
+    (comment 2 "www.me.uk")
   )
 
   (layers
@@ -87,7 +88,7 @@
     )
   )
 
-  (property "DATE" "2023-01-08")
+  (property "DATE" "2023-01-09")
 
   (net 0 "")
   (net 1 "GND")
@@ -1679,7 +1680,7 @@
   (gr_text "GND" (at 182.7 63.6 90) (layer "B.SilkS") (tstamp 4012ad2b-4128-4e38-b7a7-dcaab8c822fa)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
-  (gr_text "Shelly\nTasmotizer" (at 170.7 60) (layer "B.SilkS") (tstamp af1e2ce7-906f-48cd-9500-4406b53c617e)
+  (gr_text "Tasmotizer" (at 170.2 60.8) (layer "B.SilkS") (tstamp af1e2ce7-906f-48cd-9500-4406b53c617e)
     (effects (font (size 1 1) (thickness 0.15)) (justify right mirror))
   )
   (gr_text "GND" (at 183.55 58.6 90) (layer "F.SilkS") (tstamp 0f9cec82-e2ae-4e15-b3cb-65ae1728486a)

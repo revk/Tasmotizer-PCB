@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Shelly Tasmotizer")
+    (title "Tasmotizer")
     (date "${DATE}")
     (rev "4")
-    (company "Adrian Kennard Andrews & Arnold Ltd")
-    (comment 1 "@TheRealRevK")
+    (company "Adrian Kennard, Andrews & Arnold Ltd")
+    (comment 1 "toot.me.uk/@RevK")
     (comment 2 "www.me.uk")
   )
 
