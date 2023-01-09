@@ -2422,7 +2422,7 @@
     (property "Value" "QR" (id 1) (at 271.78 175.895 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "RevK:QR-Shelly" (id 2) (at 271.145 173.355 0)
+    (property "Footprint" "RevK:QR-Tas" (id 2) (at 271.145 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 271.145 173.355 0)
@@ -2847,7 +2847,7 @@
       (reference "Art1") (unit 1) (value "AJK") (footprint "RevK:AJK")
     )
     (path "/00000000-0000-0000-0000-0000610f8780"
-      (reference "Art2") (unit 1) (value "QR") (footprint "RevK:QR-Shelly")
+      (reference "Art2") (unit 1) (value "QR") (footprint "RevK:QR-Tas")
     )
     (path "/00000000-0000-0000-0000-000060815e33"
       (reference "C1") (unit 1) (value "100nF") (footprint "RevK:C_0603")
