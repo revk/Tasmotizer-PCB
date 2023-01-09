@@ -1,6 +1,6 @@
 // Generated case design for PCB/Tas/Tas.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-01-09 07:52:34
+// Generated 2023-01-09 09:56:57
 // title:	Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -49,12 +49,12 @@ translate([0.680000,14.000000,0.800000])rotate([0,0,90.000000])m6(pushed,hulled)
 translate([1.930000,10.700000,0.800000])rotate([0,0,90.000000])m8(pushed,hulled); // RevK:C_0805_ C_0805_2012Metric
 translate([8.180000,10.700000,0.800000])rotate([0,0,90.000000])m8(pushed,hulled); // RevK:C_0805_ C_0805_2012Metric
 translate([5.060000,11.080000,0.800000])m9(pushed,hulled); // RevK:D_1206_ D_1206_3216Metric
-translate([6.680000,14.250000,0.800000])m10(pushed,hulled); // RevK:L_1210_ L_1210_3225Metric
+translate([6.680000,14.250000,0.800000])rotate([-0.000000,0.000000,90.000000])m10(pushed,hulled); // RevK:L_4x4_ TYA4020
 translate([6.350000,17.550000,0.800000])rotate([0,0,180.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([1.700000,17.700000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([2.100000,20.600000,0.800000])m6(pushed,hulled); // RevK:C_0603 C_0603_1608Metric
 translate([4.000000,23.200000,0.800000])rotate([0,0,-90.000000])rotate([-0.000000,0.000000,180.000000])m7(pushed,hulled); // RevK:SOT-323_SC-70 SOT-323_SC-70
-translate([2.780000,14.250000,0.800000])rotate([0,0,-90.000000])m11(pushed,hulled); // RevK:SOT-23-Thin-6-Reg2 SOT-23-6
+translate([2.780000,14.250000,0.800000])rotate([0,0,-90.000000])m11(pushed,hulled); // RevK:SOT-23-Thin-6-Reg SOT-23-6
 translate([9.425000,24.400000,0.000000])rotate([0,0,180.000000])rotate([180,0,0])translate([3.175000,0.000000,0.000000])rotate([-0.000000,0.000000,90.000000])m12(pushed,hulled); // RevK:PinHeader_1x06_P1.27mm_Vertical PinHeader_1x06_P1.27mm_Vertical
 }
 
@@ -154,12 +154,12 @@ b(0,0,0,4.4,1.75,1.2); // Pad size
 }
 
 module m10(pushed=false,hulled=false)
-{ // RevK:L_1210_ L_1210_3225Metric
-b(0,0,0,3.4,2.7,1.2);
+{ // RevK:L_4x4_ TYA4020
+b(0,0,0,4,4,2.1);
 }
 
 module m11(pushed=false,hulled=false)
-{ // RevK:SOT-23-Thin-6-Reg2 SOT-23-6
+{ // RevK:SOT-23-Thin-6-Reg SOT-23-6
 b(0,0,0,3.05,3.05,0.5);
 b(0,0,0,1.45,3.05,1.1);
 }
