@@ -1,5 +1,3 @@
-MODELS := Tas
-
 all:	stl
 
 update: 
