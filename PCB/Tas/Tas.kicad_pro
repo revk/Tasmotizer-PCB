@@ -351,7 +351,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Taz.kicad_pro",
+    "filename": "Tas.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -471,6 +471,6 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2023-01-09"
+    "DATE": "2023-01-11"
   }
 }
