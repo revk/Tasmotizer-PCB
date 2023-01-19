@@ -1,6 +1,6 @@
 // Generated case design for PCB/Tas/Tas.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-01-19 12:30:44
+// Generated 2023-01-19 12:59:47
 // title:	Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -414,4 +414,4 @@ module parts()
 	translate([spacing,0,0])top();
 }
 intersection(){base();cube([25,28+5,10]);}
-translate([23,0,0])intersection(){top();translate([0,5,0])cube([25,28+5,10]);}
+translate([23,0,0])intersection(){top();translate([0,3,0])cube([25,28+5,10]);}
