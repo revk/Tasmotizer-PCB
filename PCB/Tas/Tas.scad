@@ -1,6 +1,6 @@
 // Generated case design for PCB/Tas/Tas.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-01-09 09:56:57
+// Generated 2023-01-19 11:15:22
 // title:	Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -35,7 +35,7 @@ module board(pushed=false,hulled=false){
 translate([1.100000,2.100000,0.800000])rotate([0,0,90.000000])m0(pushed,hulled); // LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder LED_0603_1608Metric
 translate([13.050000,4.800000,0.800000])rotate([0,0,90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([7.000000,26.900000,0.800000])rotate([0,0,180.000000])translate([5.080000,0.000000,0.000000])rotate([-0.000000,0.000000,90.000000])m2(pushed,hulled); // RevK:PinHeader_1x05_P2.54mm_Right PinHeader_1x05_P2.54mm_Horizontal
-translate([10.700000,20.500000,0.800000])rotate([0,0,90.000000])rotate([-0.000000,0.000000,-90.000000])m3(pushed,hulled); // RevK:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm-Rot QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
+translate([10.700000,20.500000,0.800000])rotate([0,0,180.000000])m3(pushed,hulled); // RevK:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
 translate([7.000000,4.500000,0.800000])translate([0.000000,-1.050000,0.000000])rotate([90.000000,0.000000,0.000000])m4(pushed,hulled); // RevK:USC16-TR CSP-USC16-TR
 translate([1.100000,5.100000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([13.050000,1.900000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
@@ -54,7 +54,7 @@ translate([6.350000,17.550000,0.800000])rotate([0,0,180.000000])m1(pushed,hulled
 translate([1.700000,17.700000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled); // RevK:R_0603 R_0603_1608Metric
 translate([2.100000,20.600000,0.800000])m6(pushed,hulled); // RevK:C_0603 C_0603_1608Metric
 translate([4.000000,23.200000,0.800000])rotate([0,0,-90.000000])rotate([-0.000000,0.000000,180.000000])m7(pushed,hulled); // RevK:SOT-323_SC-70 SOT-323_SC-70
-translate([2.780000,14.250000,0.800000])rotate([0,0,-90.000000])m11(pushed,hulled); // RevK:SOT-23-Thin-6-Reg SOT-23-6
+translate([2.780000,14.250000,0.800000])rotate([-0.000000,0.000000,90.000000])m11(pushed,hulled); // RevK:SOT-23-Thin-6-Reg SOT-23-6
 translate([9.425000,24.400000,0.000000])rotate([0,0,180.000000])rotate([180,0,0])translate([3.175000,0.000000,0.000000])rotate([-0.000000,0.000000,90.000000])m12(pushed,hulled); // RevK:PinHeader_1x06_P1.27mm_Vertical PinHeader_1x06_P1.27mm_Vertical
 }
 
@@ -82,7 +82,7 @@ cube([100,12.7,2.54]);
 }
 
 module m3(pushed=false,hulled=false)
-{ // RevK:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm-Rot QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
+{ // RevK:QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm QFN-20-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
 cube([4,4,1],center=true);
 }
 
