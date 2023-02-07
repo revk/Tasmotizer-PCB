@@ -1,6 +1,6 @@
 // Generated case design for PCB/Tas/Tas.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-01-19 12:59:47
+// Generated 2023-02-07 07:39:13
 // title:	Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -55,7 +55,7 @@ translate([1.700000,17.700000,0.800000])rotate([0,0,-90.000000])m1(pushed,hulled
 translate([2.100000,20.600000,0.800000])m6(pushed,hulled); // RevK:C_0603 C_0603_1608Metric (back)
 translate([4.000000,23.200000,0.800000])rotate([0,0,-90.000000])rotate([-0.000000,-0.000000,-180.000000])m7(pushed,hulled); // RevK:SOT-323_SC-70 SOT-323_SC-70 (back)
 translate([2.780000,14.250000,0.800000])rotate([-0.000000,-0.000000,-90.000000])m11(pushed,hulled); // RevK:SOT-23-Thin-6-Reg SOT-23-6 (back)
-translate([9.425000,24.400000,0.000000])rotate([0,0,180.000000])rotate([180,0,0])translate([3.175000,0.000000,0.000000])rotate([-0.000000,-0.000000,-90.000000])m12(pushed,hulled); // RevK:PinHeader_1x06_P1.27mm_Vertical PinHeader_1x06_P1.27mm_Vertical
+// Missing RevK:PinHeader_1x07_P1.27mm_Vertical PinHeader_1x07_P1.27mm_Vertical
 }
 
 module b(cx,cy,z,w,l,h){translate([cx-w/2,cy-l/2,z])cube([w,l,h]);}
@@ -164,14 +164,6 @@ module m11(pushed=false,hulled=false)
 { // RevK:SOT-23-Thin-6-Reg SOT-23-6
 b(0,0,0,3.05,3.05,0.5);
 b(0,0,0,1.45,3.05,1.1);
-}
-
-module m12(pushed=false,hulled=false)
-{ // RevK:PinHeader_1x06_P1.27mm_Vertical PinHeader_1x06_P1.27mm_Vertical
-translate([-0.635,-6.985,-1]) // Cropped pins
-cube([1.27,7.62,hulled?12.7:100]);
-if(!pushed)translate([-1.27,-6.985,0]) 
-cube([2.54,7.62,2.54]);
 }
 
 height=casebase+pcbthickness+casetop;
@@ -413,5 +405,5 @@ module parts()
 	base();
 	translate([spacing,0,0])top();
 }
-intersection(){base();cube([25,28+5,10]);}
-translate([23,0,0])intersection(){top();translate([0,3,0])cube([25,28+5,10]);}
+intersection(){base();cube([25,28+4,10]);}
+translate([23,0,0])intersection(){top();translate([0,8-4,0])cube([25,28+4,10]);}

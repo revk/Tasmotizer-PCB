@@ -1278,7 +1278,7 @@
   (gr_text "${DATE}" (at 190 88) (layer "B.SilkS") (tstamp 6ba59695-ee2a-4ea4-ae45-0d4c89a1a024)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Shelly power supply" (at 210.1 87.8) (layer "F.SilkS") (tstamp c06a2556-c4b1-4ba9-88d8-adc82441f326)
+  (gr_text "3.3V power supply" (at 210.1 87.8) (layer "F.SilkS") (tstamp c06a2556-c4b1-4ba9-88d8-adc82441f326)
     (effects (font (size 2 2) (thickness 0.3)))
   )
 
