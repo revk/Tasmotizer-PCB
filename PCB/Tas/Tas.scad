@@ -1,6 +1,6 @@
 // Generated case design for PCB/Tas/Tas.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-02-07 16:01:31
+// Generated 2023-02-07 16:32:20
 // title:	Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -78,10 +78,10 @@ n=5;
 if(!hulled)for(x=[0:1:n-1])translate([-0.25,-x*2.54-0.25,-2.5])cube([0.5,0.5,3]); // Un-cropped pins
 for(x=[0:1:n-1])translate([0,-x*2.54,-0.81])cylinder(d=2,h=1); // Cropped pins / solder
 for(x=[0:1:n-1])translate([0,-x*2.54,-1.8])cylinder(d1=1,d2=2,h=1); // Cropped pins / solder
-translate([-1.27,-(n-0.5)*2.54,0]) // Plug
+translate([-1.27,-(n-0.5)*2.54,0]) // Header plastic
 cube([3,n*2.54,2.54]);
-translate([1.27,-(n-0.5)*2.54-0.25,0]) // Plug
-cube([10,n*2.54+0.5,2.54+0.5]);
+translate([1.27,-(n-0.5)*2.54-0.5,0]) // Plug
+cube([10,n*2.54+1,2.54+1]);
 }
 
 module m3(pushed=false,hulled=false)
@@ -171,8 +171,8 @@ module m12(pushed=false,hulled=false)
 { // RevK:PinHeader_1x07_P1.27mm_Vertical PinHeader_1x07_P1.27mm_Vertical
 translate([-0.635,-8.255,-1]) // Cropped pins
 cube([1.27,8.89,hulled?12.7:100]);
-if(!pushed)translate([-1.27,-8.255,0]) 
-cube([2.54,8.89,2.54]);
+if(!pushed)translate([-1.15,-8.255,0]) 
+cube([2.3,8.89,2.54]);
 }
 
 height=casebase+pcbthickness+casetop;
