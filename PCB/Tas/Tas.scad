@@ -1,6 +1,6 @@
 // Generated case design for PCB/Tas/Tas.kicad_pcb
 // By https://github.com/revk/PCBCase
-// Generated 2023-02-07 08:25:15
+// Generated 2023-02-07 15:56:11
 // title:	Tasmotizer
 // date:	${DATE}
 // rev:	4
@@ -74,13 +74,14 @@ b(0,0,0,2.8,0.95,0.5); // Pad size
 
 module m2(pushed=false,hulled=false)
 { // RevK:PinHeader_1x05_P2.54mm_Right PinHeader_1x05_P2.54mm_Horizontal
-translate([-0.25,-11.43,-2.5]) // Uncropped pins
-cube([0.5,12.7,3]);
-translate([-1.27,-11.43,-1]) // Cropped pins
-cube([2.54,12.7,3]);
-translate([-1.27,-11.43,0])
-cube([100,12.7,2.54]);
-
+n=5;
+if(!hulled)for(x=[0:1:n-1])translate([-0.25,-x*2.54-0.25,-2.5])cube([0.5,0.5,3]); // Un-cropped pins
+for(x=[0:1:n-1])translate([0,-x*2.54,-0.81])cylinder(d=2,h=1); // Cropped pins / solder
+for(x=[0:1:n-1])translate([0,-x*2.54,-1.8])cylinder(d1=1,d2=2,h=1); // Cropped pins / solder
+translate([-1.27,-(n-0.5)*2.54,0]) // Plug
+cube([3,n*2.54,2.54]);
+translate([1.27,-(n-0.5)*2.54-0.25,0]) // Plug
+cube([10,n*2.54+0.5,2.54+0.5]);
 }
 
 module m3(pushed=false,hulled=false)
