@@ -21,6 +21,8 @@ The use of `DTR` and `RTS` on the serial port allow flashing of most ESP device 
 
 ### 5 pin header (ideal for Shelly 1, and most of my PCBs on this GitHub)
 
+Standard 0.1" (2.54mm) spaced, square pin, header.
+
 |Pin|Use|
 |---|---|
 |`1`|`GND`|
@@ -30,6 +32,8 @@ The use of `DTR` and `RTS` on the serial port allow flashing of most ESP device 
 |`5`|`TXD` data from device|
 
 ### 7 pin header (ideal for most other Shelly devices)
+
+Small 0.05" (1.27mm) spaced, square pin, header.
 
 |Pin|Use|
 |---|---|
