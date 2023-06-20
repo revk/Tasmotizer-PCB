@@ -1333,6 +1333,7 @@
     )
   )
 
+
   (junction (at 147.955 127) (diameter 0) (color 0 0 0 0)
     (uuid 0ed16e30-3173-4230-b62f-cc6275a67def)
   )
@@ -1374,7 +1375,6 @@
   )
 
   (no_connect (at 88.9 73.66) (uuid 1fb1026a-81dd-45d8-9055-8f1988e5dbf4))
-  (no_connect (at 144.145 139.7) (uuid 88db2074-162a-45e4-aa18-8855e6e5595c))
 
   (wire (pts (xy 130.81 83.82) (xy 138.43 83.82))
     (stroke (width 0) (type default))
@@ -2853,6 +2853,31 @@
       (project "Tas2"
         (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
           (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 144.145 139.7 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 717d34c0-c137-4cfb-b11b-fc62b5448f00)
+    (property "Reference" "#PWR016" (at 150.495 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 148.5392 139.573 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 144.145 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 144.145 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5792ff99-ace5-4542-b144-e1522f5986f3))
+    (instances
+      (project "Tas2"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "#PWR016") (unit 1)
         )
       )
     )
