@@ -1728,7 +1728,7 @@
     (uuid f8ac9343-bcdd-4022-ba21-a8627561032a)
   )
 
-  (text "Configure FTDI\n- Inverted RTS\n- CBUS modes for LEDs, suggest :-\n- CBUS0 mode 1\n- CBUS1 mode 2\n- CBUS2 mode 20"
+  (text "Configure FTDI\n- Inverted RTS\n- CBUS modes for LEDs, suggest :-\n- CBUS0 mode 1\n- CBUS1 mode 2\n- CBUS3 mode 20"
     (at 177.165 116.205 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8558364f-4a64-4872-9196-4e8571ebee96)
