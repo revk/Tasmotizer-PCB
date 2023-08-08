@@ -9,7 +9,7 @@ ftdi-noninvert: ftdizap/ftdizap
 	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=9 --invert-rts=0
 
 ftdi: ftdizap/ftdizap
-	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=9 --invert-rts=1
+	./ftdizap/ftdizap --serial="RevK" --description="Tasmotizer" --cbus0-mode=1 --cbus1-mode=2 --cbus3-mode=20 --invert-rts=1
 
 ftdizap/ftdizap: ftdizap/ftdizap.c
 	make -C ftdizap
