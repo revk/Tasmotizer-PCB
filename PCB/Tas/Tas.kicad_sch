@@ -1690,6 +1690,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "VBUS" (shape input) (at 182.88 62.23 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 10071e6e-7479-4813-b6bb-26bf4766de0c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 182.88 55.0004 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "TXD" (shape input) (at 160.655 120.015 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 12422a89-3d0c-485c-9386-f77121fd68fd)
@@ -1793,6 +1800,13 @@
     (uuid 926001fd-2747-4639-8c0f-4fc46ff7218d)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 78.74 152.7164 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "VBUS" (shape input) (at 188.595 62.23 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a2e20cd3-85ff-4582-afea-2f86a5664eed)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 188.595 55.0004 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "GPIO0" (shape input) (at 68.58 67.31 180) (fields_autoplaced)
@@ -2793,6 +2807,42 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 57.785 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 03dcdba6-160f-4084-b915-029288835b36)
+    (property "Reference" "C2" (at 60.706 54.856 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22uF" (at 60.706 56.904 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "RevK:C_0603" (at 58.7502 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 57.785 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2f0e7ca-c8d5-4efe-b1f0-2142ad08cbe3))
+    (pin "2" (uuid bcdff670-5ada-4357-bdb0-c01f338c8166))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:LED_RGBA") (at 190.5 144.145 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06edeb97-6274-4996-97bc-d7e28d82aaf1)
@@ -2835,6 +2885,42 @@
       (project "Reference"
         (path "/825c70b0-4860-42b7-97dc-86bfa46e06fd"
           (reference "D2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 188.595 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 13228d66-d1ad-4e35-b4b9-7a36b688b6a3)
+    (property "Reference" "C2" (at 191.516 65.016 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22uF" (at 191.516 67.064 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "RevK:C_0603" (at 189.5602 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 188.595 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 35082c69-e103-44de-9bb2-857aa7c9214b))
+    (pin "2" (uuid cda724af-f7cd-48a5-aa02-521a694b9e86))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2916,6 +3002,76 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 51.435 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 24463780-f03a-4c04-90c7-e7da1b90b998)
+    (property "Reference" "#PWR011" (at 51.435 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 51.435 64.1334 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 51.435 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 51.435 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b502c86c-2055-46e0-8256-90eb9189ed07))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 188.595 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 27a60e16-10bf-4312-9b6c-6a621a53b18e)
+    (property "Reference" "#PWR030" (at 188.595 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 188.722 74.2442 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 188.595 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 188.595 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b390c542-8d78-4343-9fa3-59424e3e6393))
+    (instances
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "#PWR030") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "Generic"
+        (path "/babeabf2-f3b0-4ed5-8d9e-0215947e6cf3"
+          (reference "#PWR027") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x07") (at 73.66 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f7812a2-f996-4689-9055-d1875d2cc709)
@@ -2988,6 +3144,41 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 57.785 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3fbb9be4-7aa7-453d-b476-4134d7627f89)
+    (property "Reference" "#PWR012" (at 57.785 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 57.785 48.4942 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 57.785 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 57.785 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fc853ff4-42a9-4e0f-a40a-0f54c185f0a2))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "#PWR023") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 40.64 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4708e11c-92cf-41df-bb9b-34df1fa466cc)
@@ -3008,6 +3199,41 @@
       (project "Tas"
         (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 182.88 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4d94319b-5669-4d03-9977-5759b27462ae)
+    (property "Reference" "#PWR031" (at 182.88 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 183.007 74.2442 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 182.88 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 182.88 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a62931f0-2365-4741-856a-4db854b87b36))
+    (instances
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "#PWR031") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "Generic"
+        (path "/babeabf2-f3b0-4ed5-8d9e-0215947e6cf3"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3180,6 +3406,42 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 182.88 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 85c4ff7c-ec54-4ece-820f-2efda443a633)
+    (property "Reference" "C1" (at 173.99 64.627 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 173.99 66.675 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "RevK:C_0402" (at 183.8452 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 182.88 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 29c16dbc-dcff-41b0-8820-d412752690ee))
+    (pin "2" (uuid bcc805ef-8b08-44df-a929-4082f11176e9))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "RevK:Hidden") (at 229.235 48.895 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8903d2a1-f8ac-4162-a23e-0572eaf571b0)
@@ -3261,6 +3523,41 @@
       (project "Generic"
         (path "/babeabf2-f3b0-4ed5-8d9e-0215947e6cf3"
           (reference "U4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 51.435 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 94d0591e-972b-49f5-81ee-3cbca79de133)
+    (property "Reference" "#PWR08" (at 51.435 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 51.435 48.4942 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 51.435 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 51.435 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1beaaae7-fdfe-42f6-942a-70543cee8b44))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -3445,6 +3742,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 57.785 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ddf75684-9fa5-43a5-aad0-1fac6f41153a)
+    (property "Reference" "#PWR013" (at 57.785 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 57.785 64.1334 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 57.785 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 57.785 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e03a428b-df0e-49c6-acc1-0ffdcafd6463))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "#PWR029") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 105.41 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de097fb4-477c-417d-bbd4-baadec4de0d9)
@@ -3510,6 +3842,42 @@
       (project "Generic"
         (path "/babeabf2-f3b0-4ed5-8d9e-0215947e6cf3"
           (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 51.435 55.88 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f46c828f-29b9-4847-8846-2fa37277189e)
+    (property "Reference" "C1" (at 42.545 54.467 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 42.545 56.515 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "RevK:C_0402" (at 52.4002 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 51.435 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 07836b9c-a74c-4152-9cdd-cab4b02a1e1e))
+    (pin "2" (uuid c654fc5e-8ed3-48ed-89d8-3b9def0190f5))
+    (instances
+      (project "USBA"
+        (path "/2d210a96-f81f-42a9-8bf4-1b43c11086f3"
+          (reference "C1") (unit 1)
+        )
+      )
+      (project "Tas"
+        (path "/42713045-fffd-4b2d-ae1e-7232d705fb12"
+          (reference "C2") (unit 1)
+        )
+      )
+      (project "Faikin"
+        (path "/46c350bb-7de4-4e81-aafd-4af55e37aab0"
+          (reference "C2") (unit 1)
         )
       )
     )
