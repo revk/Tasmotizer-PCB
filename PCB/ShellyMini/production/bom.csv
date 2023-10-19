@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"H1, H10, H11, H12, H13, H14, H15, H16, H17, H18, H19, H2, H20, H21, H22, H23, H24, H3, H4, H5, H6, H7, H8, H9",MountingHole_3.2mm_M3,24,MountingHole,
+"TP1, TP7",Pogo,2,EN,
+"TP10, TP4",Pogo,2,Tx,
+"TP11, TP5",Pogo,2,Boot,
+"TP12, TP6",Pogo,2,GND,
+"TP2, TP8",Pogo,2,3V3,
+"TP3, TP9",Pogo,2,Rx,
