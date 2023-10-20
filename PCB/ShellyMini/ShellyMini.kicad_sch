@@ -348,6 +348,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 74.295 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 10b03720-d9f2-4d64-9886-1928f9de2fe6)
+    (property "Reference" "H28" (at 76.835 62.2879 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 76.835 64.7121 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 74.295 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 74.295 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ShellyMini"
+        (path "/eb815f10-ee47-480a-bf97-ce549d1e9a75"
+          (reference "H28") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 252.73 81.915 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16351506-9273-4937-a18c-344de8d778c0)
@@ -567,6 +591,30 @@
       (project "ShellyMini"
         (path "/eb815f10-ee47-480a-bf97-ce549d1e9a75"
           (reference "H16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 73.025 95.885 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3f7508a3-dee2-4c2d-9001-7d44a7c49058)
+    (property "Reference" "H27" (at 75.565 94.6729 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 75.565 97.0971 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 73.025 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 73.025 95.885 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ShellyMini"
+        (path "/eb815f10-ee47-480a-bf97-ce549d1e9a75"
+          (reference "H27") (unit 1)
         )
       )
     )
@@ -1066,6 +1114,54 @@
       (project "ShellyMini"
         (path "/eb815f10-ee47-480a-bf97-ce549d1e9a75"
           (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 27.94 63.5 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ae51c59e-b63d-4341-8f06-7ab6f0586b2c)
+    (property "Reference" "H26" (at 30.48 62.2879 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 30.48 64.7121 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 27.94 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 27.94 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ShellyMini"
+        (path "/eb815f10-ee47-480a-bf97-ce549d1e9a75"
+          (reference "H26") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 27.305 94.615 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b537c421-1fa2-447e-bdbc-05c6467f953b)
+    (property "Reference" "H25" (at 29.845 93.4029 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 29.845 95.8271 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 27.305 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 27.305 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ShellyMini"
+        (path "/eb815f10-ee47-480a-bf97-ce549d1e9a75"
+          (reference "H25") (unit 1)
         )
       )
     )
