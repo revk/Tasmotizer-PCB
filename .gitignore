@@ -3,5 +3,6 @@
 *.gbrjob
 *.net
 .DS_Store
+*.scad
 PCB/*/production/backups
 PCB/*/production/*_*.zip
