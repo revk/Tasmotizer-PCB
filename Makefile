@@ -25,7 +25,7 @@ PCBCase/case: PCBCase/case.c
 stl:    PCB/Tas/Tas.stl
 
 PCB/Tas/Tas.scad: PCB/Tas/Tas.kicad_pcb PCBCase/case Makefile
-	PCBCase/case -n -o $@ $< --bottom=2 --top=3 --wall=4
+	PCBCase/case -n -o $@ $< --bottom=2 --top=4.5 --wall=4
 	@echo "intersection(){bottom();translate([4,-1,0])cube([35,30,10]);}" >> $@
 	@echo "translate([0,25,0])intersection(){top();translate([4,-1,0])cube([35,30,10]);}" >> $@
 
